@@ -1,0 +1,26 @@
+# @package _global_
+# Default configuration
+task_name: ???
+checkpoint: ???
+
+# Policy type ('dm0', 'dm0_prog')
+policy_type: dm0
+
+# Inference parameters
+action_horizon: 15
+duration: 0.1
+image_size: [728, 728]
+
+
+# Log directory
+log_dir: "./logs"
+
+# Online mode parameters
+user_id: ""
+job_collection_id: ""
+
+# Postprocessing parameters
+postprocess_args:
+  gripper_threshold: 0.01
+  gripper_open: null      # null = keep original value, no binarization
+  gripper_close: 0.0

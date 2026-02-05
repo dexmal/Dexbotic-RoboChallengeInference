@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: arrange_flowers
+checkpoint: ./checkpoints/DM0-table30_arrange_flowers
+action_horizon: 50

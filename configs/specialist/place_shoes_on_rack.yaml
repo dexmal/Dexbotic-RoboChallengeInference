@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: place_shoes_on_rack
+checkpoint: ./checkpoints/DM0-table30_place_shoes_on_rack
+action_horizon: 50

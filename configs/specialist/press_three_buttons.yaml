@@ -1,0 +1,14 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: press_three_buttons
+checkpoint: ./checkpoints/DM0-table30_press_three_buttons
+action_horizon: 35
+duration: 0.2
+policy_type: dm0_prog
+
+postprocess_args:
+  gripper_threshold: 0.04
+  gripper_open: 0.084
+  gripper_close: 0.004

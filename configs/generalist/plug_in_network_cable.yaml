@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: plug_in_network_cable
+checkpoint: ./checkpoints/DM0-table30_generalist_aloha
+action_horizon: 25
+
+postprocess_args:
+  gripper_threshold: 0.015
+  gripper_open: null
+  gripper_close: 0.0

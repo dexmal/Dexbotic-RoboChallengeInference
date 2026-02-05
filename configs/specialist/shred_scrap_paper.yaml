@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: shred_scrap_paper
+checkpoint: ./checkpoints/DM0-table30_shred_scrap_paper
+action_horizon: 15
+
+postprocess_args:
+  gripper_threshold: 50
+  gripper_open: 228
+  gripper_close: 3

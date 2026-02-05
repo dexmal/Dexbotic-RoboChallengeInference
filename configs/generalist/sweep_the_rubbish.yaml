@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: sweep_the_rubbish
+checkpoint: ./checkpoints/DM0-table30_generalist_aloha
+action_horizon: 40
+
+postprocess_args:
+  gripper_threshold: 0.035
+  gripper_open: null
+  gripper_close: 0.0

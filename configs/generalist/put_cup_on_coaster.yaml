@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: put_cup_on_coaster
+checkpoint: ./checkpoints/DM0-table30_generalist_arx5
+action_horizon: 25

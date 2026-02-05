@@ -1,0 +1,11 @@
+requests
+numpy
+httpx
+loguru
+opencv-python
+fastapi
+pillow
+uvicorn
+hydra-core
+omegaconf
+scipy

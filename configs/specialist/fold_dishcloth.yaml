@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: fold_dishcloth
+checkpoint: ./checkpoints/DM0-table30_fold_dishcloth
+action_horizon: 35

@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: water_potted_plant
+checkpoint: ./checkpoints/DM0-table30_water_potted_plant
+action_horizon: 25
+policy_type: dm0_prog

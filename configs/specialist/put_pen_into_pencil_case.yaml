@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - ../default
+
+task_name: put_pen_into_pencil_case
+checkpoint: ./checkpoints/DM0-table30_put_pen_into_pencil_case
+action_horizon: 40
